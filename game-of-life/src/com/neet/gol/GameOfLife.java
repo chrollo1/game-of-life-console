@@ -109,7 +109,6 @@ public class GameOfLife {
 	
 
 	public static int countNeighbours(Cell cell, int ind) {
-
 		// init var to count
 		int count = 0;
 
