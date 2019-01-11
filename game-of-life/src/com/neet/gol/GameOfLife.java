@@ -148,7 +148,6 @@ public class GameOfLife {
 	}
 
 	public static void updateCell() {
-
 		// print empty lines
 		for(int i = 0 ; i < rows; i++) {
 			System.out.println();
@@ -167,8 +166,7 @@ public class GameOfLife {
 		}
 	}
 	
-	public static void printTitle() {
-		
+	public static void printTitle() {		
 		System.out.println( "======================================================================================="  ); 
 		
 		System.out.println( " #####     #    #     # #######       ####### #######       #       ### ####### #######"  );
