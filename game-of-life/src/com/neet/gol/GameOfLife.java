@@ -130,16 +130,16 @@ public class GameOfLife {
 		if(top + 1 < cells.size() && cells.get(top + 1).alive) { count++; }
 
 		// west
-		if(ind - 1 > -1 		  && cells.get(ind - 1).alive) { count++; }		
+		if(ind - 1 > -1 	  && cells.get(ind - 1).alive) { count++; }		
 		// east
 		if(ind + 1 < cells.size() && cells.get(ind + 1).alive) { count++; }
 
 		// southwest
-		if(bot - 1 > -1 		  && cells.get(bot - 1).alive) { count++; }
+		if(bot - 1 > -1 	  && cells.get(bot - 1).alive) { count++; }
 		// south
-		if(bot 	   > -1 		  && cells.get(bot).alive) 	   { count++; }
+		if(bot 	   > -1 	  && cells.get(bot).alive)     { count++; }
 		// southeast
-		if(bot + 1 > -1 		  && cells.get(bot + 1).alive) { count++; }
+		if(bot + 1 > -1 	  && cells.get(bot + 1).alive) { count++; }
 
 		return count;
 	}
