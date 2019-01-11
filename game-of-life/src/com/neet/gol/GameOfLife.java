@@ -55,7 +55,7 @@ public class GameOfLife {
 					// boolean fill is true if randomly generated number divided by half the num of rows is greater than 0.8, otherwise it's false
 					fill = rand.nextInt(rows) / (rows/2) > 0.8f ? true : false;
 
-					// fill at x,y?
+					// should fill at x or y...
 					editCell(new Point(x, y), fill);
 				}
 			}
