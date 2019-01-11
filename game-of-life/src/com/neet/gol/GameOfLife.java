@@ -57,8 +57,8 @@ public class GameOfLife {
 
 					// fill at x,y?
 					editCell(new Point(x, y), fill);
+				}
 			}
-		}
 
 			// generation timer
 			Timer timer = new Timer();
