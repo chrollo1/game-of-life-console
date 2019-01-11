@@ -25,7 +25,6 @@ import com.neet.gol.Cell;
  */
 
 public class GameOfLife {
-
 	// init global vars
 	static int rows = 24;
 	static int cols = 48;
@@ -35,8 +34,7 @@ public class GameOfLife {
 	// dynamically store cells in list
 	static ArrayList<Cell> cells = new ArrayList<Cell>();
 
-	public static void main(String[] args) throws IOException {
-		
+	public static void main(String[] args) throws IOException {		
 //			printTitle();
 		
 			// add dead cells
@@ -105,8 +103,7 @@ public class GameOfLife {
 				}
 			};
 
-			timer.scheduleAtFixedRate(task, 1000, interval);
-		
+			timer.scheduleAtFixedRate(task, 1000, interval);		
 	}
 
 	
